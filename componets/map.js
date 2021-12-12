@@ -1,5 +1,10 @@
+//Map center coordinate
 const cordsCenter = [0, 0];
+
+//Course coordinate
 const cordsLocal = [0.0005, 0];
+
+//Reference coordinate, which in this example is a hospital
 const cordsHospital = [-0.0005, 0];
 
 const iconPhantom = new ol.Feature({
