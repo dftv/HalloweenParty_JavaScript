@@ -4,10 +4,10 @@ const hour = minute * 60;
 const day = hour * 24;
 
 
-//to enter timer end date
+//To enter timer end date
 //let count_down = new Date('10/31/0000 00:00:00').getTime();
 
-//so that the timer is always 2 days away
+//So that the timer is always 2 days away
 let count_down = new Date(Date.now()).getTime() + (day * 2);
 
 let x = setInterval(() => countDown(), second);
