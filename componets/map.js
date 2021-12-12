@@ -1,10 +1,10 @@
-//Map center coordinate
+//To add coordinate of the center of the map
 const cordsCenter = [0, 0];
 
-//Course coordinate
+//To add course coordinate
 const cordsLocal = [0.0005, 0];
 
-//Reference coordinate, which in this example is a hospital
+//to add reference coordinate, which in this example is a hospital
 const cordsHospital = [-0.0005, 0];
 
 const iconPhantom = new ol.Feature({
