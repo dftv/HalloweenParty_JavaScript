@@ -3,7 +3,6 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 
-
 //To enter timer end date
 //let count_down = new Date('10/31/0000 00:00:00').getTime();
 
